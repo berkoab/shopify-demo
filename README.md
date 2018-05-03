@@ -9,7 +9,7 @@ curl -X POST -H 'Content-Type: application/json' 'https://key:pass@aryeh-berkowi
 ## Use the new rule and create a new discount code:
 curl -X POST -H 'Content-Type: application/json' 'https://key:pass@aryeh-berkowitz.myshopify.com//admin/price_rules/279307124787/discount_codes.json' -d '{"discount_code": {    "code": "SUMMERSALE10OFF"  }}'
 
-## New discount rule response:
+## New discount code response:
 {"discount_code":{"id":1200153198643,"price_rule_id":279307124787,"code":"SUMMERSALE10OFF","usage_count":0,"created_at":"2018-05-03T09:35:24-04:00","updated_at":"2018-05-03T09:35:24-04:00"}}
 
 ## Finally, include the new discount code in an email link
